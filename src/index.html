@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Слайдер на JS</title>
+</head>
+<body>
+<div class="wrap">
+    <div class="slider">
+        <ul class="slider__menu">
+            <li class="slider-menu__element"><a href="#1" class="slider-menu__link slider-menu__link-active">Rostov-on-Don, Admiral</a></li>
+            <li class="slider-menu__element"><a href="#2" class="slider-menu__link">Sochi Ice Town</a></li>
+            <li class="slider-menu__element"><a href="#3" class="slider-menu__link">Rostov-on-Don Patriotic    </a></li>
+        </ul>
+        <div class="slider__wrap">
+            <div class="slider__left">
+                <h2>Completed projects</h2>
+                <p>Only a small part of the work performed by our company is presented on the site.
+                    For 14 years on in the construction
+                    market we have made happy more than 1000 families</p>
+                <div class="slider-information">
+                    <div class="slider-information__element">
+                        <span class="slider-information__header">CITY:</span>
+                        <span class="slider-information__text">Rostov-on-Don LCD admiral</span>
+                    </div>
+                    <div class="slider-information__element">
+                        <span class="slider-information__header">apartment area:</span>
+                        <span class="slider-information__text">81 m2</span>
+                    </div>
+                    <div class="slider-information__element">
+                        <span class="slider-information__header">Repair time:</span>
+                        <span class="slider-information__text">3.5 months</span>
+                    </div>
+                    <div class="slider-information__element">
+                        <span class="slider-information__header">Repair Cost:</span>
+                        <span class="slider-information__text">Upon request</span>
+                    </div>
+                </div>
+                <ul class="slider-switches-wrap">
+                    <span class="arrow-left"></span>
+                    <div class="slider-switches">
+                    <!--<li class="slider-switches__element slider-switches__element&#45;&#45;active"></li>-->
+                    <!--<li class="slider-switches__element"></li>-->
+                    <!--<li class="slider-switches__element"></li>-->
+                    </div>
+                    <span class="arrow-rigth"></span>
+                </ul>
+            </div>
+            <div class="slider__right">
+                <img src="images/image-1.png" data-index="index1" alt="" class="slider-right__image slider-right__image-active">
+                <img src="images/image-2.png" data-index="index2" alt="" class="slider-right__image">
+                <img src="images/image-3.png" data-index="index3" alt="" class="slider-right__image">
+            </div>
+        </div>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
